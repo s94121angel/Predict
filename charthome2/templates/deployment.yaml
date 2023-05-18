@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: predict-container
-        image: s410071012/node1_predict:{{ .Values.deployment.image.tag }}
+        image: imilabremodeling/ilatc:{{ .Values.deployment.image.tag }}
         command: ["/bin/sh"]
         args: ["-c", "while true; do python3 /home/jovyan/predict-code/inference.py;sleep 10;done"]
         ports: 

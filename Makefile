@@ -4,7 +4,7 @@ SERVER  =
 COMMIT  =${shell git rev-parse --short HEAD}
 VERSION ?=${COMMIT}
 TYPE    ?=minikube
-REPO_NAME=s410071012/node1_predict
+REPO_NAME=imilabremodeling/ilatc
 
 
 build-image:

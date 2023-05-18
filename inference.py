@@ -28,7 +28,7 @@ def inference():
     MODEL_PATH_NN = os.path.join(MODEL_DIR, MODEL_FILE_NN)
     print("code testttttttttiiiiiiing")    
     # Load, read and normalize training data
-    testing = "/home/jovyan/predict-code/test.csv"
+    testing = "test.csv"
     data_test = pd.read_csv(testing)
         
     y_test = data_test['# Letter'].values
